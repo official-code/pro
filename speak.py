@@ -136,7 +136,7 @@ create file
          speak.runAndWait()
          o = input("name file for creat:")
          f = open(o,"w")
-         f.write(Fore.BROWN+"Editor : Official-coDe")
+         f.write("Editor : Official-coDe")
          f.close()
        elif me == "terminal": 
         while True:
